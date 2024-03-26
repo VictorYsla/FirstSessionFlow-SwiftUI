@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1825C4422BB119E3000FB7F7 /* LoginScreenPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825C4412BB119E3000FB7F7 /* LoginScreenPractice.swift */; };
+		1825C4442BB11CD5000FB7F7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825C4432BB11CD5000FB7F7 /* LoginViewModel.swift */; };
+		18359A7B2BB28E910047D289 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18359A7A2BB28E910047D289 /* LoginScreen.swift */; };
+		18359A872BB29D980047D289 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18359A862BB29D980047D289 /* Functions.swift */; };
 		18FD105E2BB0E95C00169F86 /* FirstSessionFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD105D2BB0E95C00169F86 /* FirstSessionFlowApp.swift */; };
 		18FD10602BB0E95C00169F86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD105F2BB0E95C00169F86 /* ContentView.swift */; };
 		18FD10622BB0E95C00169F86 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD10612BB0E95C00169F86 /* Item.swift */; };
 		18FD10642BB0E95E00169F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD10632BB0E95E00169F86 /* Assets.xcassets */; };
 		18FD10672BB0E95E00169F86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD10662BB0E95E00169F86 /* Preview Assets.xcassets */; };
+		60CE56CC5D1F4363F63DCD89 /* Pods_FirstSessionFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD70DEAE89CE7660FE7430F1 /* Pods_FirstSessionFlow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1825C4412BB119E3000FB7F7 /* LoginScreenPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenPractice.swift; sourceTree = "<group>"; };
+		1825C4432BB11CD5000FB7F7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		18359A7A2BB28E910047D289 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		18359A862BB29D980047D289 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		18FD105A2BB0E95C00169F86 /* FirstSessionFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSessionFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FD105D2BB0E95C00169F86 /* FirstSessionFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSessionFlowApp.swift; sourceTree = "<group>"; };
 		18FD105F2BB0E95C00169F86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18FD10612BB0E95C00169F86 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		18FD10632BB0E95E00169F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FD10662BB0E95E00169F86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25F45C144009DCB73D7BD227 /* Pods-FirstSessionFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSessionFlow.release.xcconfig"; path = "Target Support Files/Pods-FirstSessionFlow/Pods-FirstSessionFlow.release.xcconfig"; sourceTree = "<group>"; };
+		EC00012757838620B23D67C7 /* Pods-FirstSessionFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSessionFlow.debug.xcconfig"; path = "Target Support Files/Pods-FirstSessionFlow/Pods-FirstSessionFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		FD70DEAE89CE7660FE7430F1 /* Pods_FirstSessionFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstSessionFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +40,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CE56CC5D1F4363F63DCD89 /* Pods_FirstSessionFlow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1825C4382BB117E4000FB7F7 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1825C43B2BB1185C000FB7F7 /* Home */,
+				1825C43A2BB11841000FB7F7 /* Auth */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		1825C43A2BB11841000FB7F7 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1825C43D2BB1186D000FB7F7 /* Signup */,
+				1825C43C2BB11867000FB7F7 /* Login */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		1825C43B2BB1185C000FB7F7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1825C43C2BB11867000FB7F7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1825C4402BB118B9000FB7F7 /* UI */,
+				1825C43F2BB118B2000FB7F7 /* Domain */,
+				1825C43E2BB118AC000FB7F7 /* Data */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1825C43D2BB1186D000FB7F7 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+		1825C43E2BB118AC000FB7F7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		1825C43F2BB118B2000FB7F7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1825C4402BB118B9000FB7F7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1825C4412BB119E3000FB7F7 /* LoginScreenPractice.swift */,
+				1825C4432BB11CD5000FB7F7 /* LoginViewModel.swift */,
+				18359A7A2BB28E910047D289 /* LoginScreen.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		18359A852BB29D790047D289 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18359A862BB29D980047D289 /* Functions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		18FD10512BB0E95C00169F86 = {
 			isa = PBXGroup;
 			children = (
 				18FD105C2BB0E95C00169F86 /* FirstSessionFlow */,
 				18FD105B2BB0E95C00169F86 /* Products */,
+				99EDC2042E767C7F9DDF1D95 /* Pods */,
+				A791068BCA6333FD3CBF1CBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +142,8 @@
 		18FD105C2BB0E95C00169F86 /* FirstSessionFlow */ = {
 			isa = PBXGroup;
 			children = (
+				18359A852BB29D790047D289 /* Helpers */,
+				1825C4382BB117E4000FB7F7 /* Code */,
 				18FD105D2BB0E95C00169F86 /* FirstSessionFlowApp.swift */,
 				18FD105F2BB0E95C00169F86 /* ContentView.swift */,
 				18FD10612BB0E95C00169F86 /* Item.swift */,
@@ -70,6 +161,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		99EDC2042E767C7F9DDF1D95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC00012757838620B23D67C7 /* Pods-FirstSessionFlow.debug.xcconfig */,
+				25F45C144009DCB73D7BD227 /* Pods-FirstSessionFlow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A791068BCA6333FD3CBF1CBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD70DEAE89CE7660FE7430F1 /* Pods_FirstSessionFlow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FD106A2BB0E95E00169F86 /* Build configuration list for PBXNativeTarget "FirstSessionFlow" */;
 			buildPhases = (
+				0F60312DE18E3E3C3CF86529 /* [CP] Check Pods Manifest.lock */,
 				18FD10562BB0E95C00169F86 /* Sources */,
 				18FD10572BB0E95C00169F86 /* Frameworks */,
 				18FD10582BB0E95C00169F86 /* Resources */,
+				1825C4362BB10CD3000FB7F7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -135,14 +245,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F60312DE18E3E3C3CF86529 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirstSessionFlow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1825C4362BB10CD3000FB7F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18FD10562BB0E95C00169F86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18FD10602BB0E95C00169F86 /* ContentView.swift in Sources */,
+				1825C4422BB119E3000FB7F7 /* LoginScreenPractice.swift in Sources */,
 				18FD10622BB0E95C00169F86 /* Item.swift in Sources */,
+				18359A872BB29D980047D289 /* Functions.swift in Sources */,
+				1825C4442BB11CD5000FB7F7 /* LoginViewModel.swift in Sources */,
 				18FD105E2BB0E95C00169F86 /* FirstSessionFlowApp.swift in Sources */,
+				18359A7B2BB28E910047D289 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +426,7 @@
 		};
 		18FD106B2BB0E95E00169F86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC00012757838620B23D67C7 /* Pods-FirstSessionFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -278,6 +435,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstSessionFlow/Preview Content\"";
 				DEVELOPMENT_TEAM = YF48QV3AHJ;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +457,7 @@
 		};
 		18FD106C2BB0E95E00169F86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F45C144009DCB73D7BD227 /* Pods-FirstSessionFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,6 +466,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstSessionFlow/Preview Content\"";
 				DEVELOPMENT_TEAM = YF48QV3AHJ;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
