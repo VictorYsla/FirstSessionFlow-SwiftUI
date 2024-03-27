@@ -25,7 +25,7 @@ struct FirstSessionFlowApp: App {
 
     var body: some Scene {
         WindowGroup {
-            LoginScreenPractice()
+            LoginScreen()
         }
         .modelContainer(sharedModelContainer)
     }
